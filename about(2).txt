@@ -1,0 +1,20 @@
+import java.io.*;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) throws IOException {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter your name: ");
+        String name = sc.nextLine();
+
+        System.out.print("Enter your course: ");
+        String course = sc.nextLine();
+
+        FileWriter fw = new FileWriter("about.txt");
+        fw.write("Enter your Name: " + name + "\n");
+        fw.write(" Enter your Course: " + course + "\n");
+        System.out.println("GitHub: Collaborate without overwriting each other's work..");
+        fw.close();
+    }
+}
