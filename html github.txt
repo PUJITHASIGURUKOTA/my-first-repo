@@ -2,10 +2,11 @@
 <html>
 <head>
 <title>
-        FIRST WED PAGE
+      Heading
 </title>
 </head>
 <body>
          PUJITHA
 </body>
+
 </html> 
